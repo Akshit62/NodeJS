@@ -1,0 +1,12 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><title>Navbar</title><base href="/"><meta name="viewport" content="width=device-width,initial-scale=1"><link rel="icon" type="image/x-icon" href="favicon.ico"><link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"><script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script><script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script><link href="styles.24f154a169d9024f2b08.bundle.css" rel="stylesheet"/></head><body><app-root></app-root><script>$(document).ready(function(){
+    $(".dropdown").hover(
+      function() {
+        $('.dropdown-menu', this).not('.in .dropdown-menu').stop(true,true).slideDown("400");
+        $(this).toggleClass('open');
+      },
+      function() {
+        $('.dropdown-menu', this).not('.in .dropdown-menu').stop(true,true).slideUp("400");
+        $(this).toggleClass('open');
+      }
+    );
+  });</script><script type="text/javascript" src="inline.94b86adc8d7e3fcfca1b.bundle.js"></script><script type="text/javascript" src="polyfills.e1f97a0070e18e96a6be.bundle.js"></script><script type="text/javascript" src="vendor.5739d563dc0ddb7536ab.bundle.js"></script><script type="text/javascript" src="main.e956b6902668ebae3e29.bundle.js"></script></body></html>
