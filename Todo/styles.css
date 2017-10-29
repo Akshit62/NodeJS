@@ -1,0 +1,14 @@
+.jumbotron{
+    background-color: aliceblue;
+}
+.label-default{
+    text-align: center;
+    margin-left: 50%;
+    margin-bottom: 20%;
+}
+.btn-primary{
+    float: right;
+}
+.btn-danger{
+    margin-left: 100px;
+}

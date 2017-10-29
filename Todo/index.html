@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Todo List</title>
+    <link rel="stylesheet" type="text/css" href="styles.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+<body>
+    <div class="jumbotron">
+        <h2 class="display-3" align="center">TODO LIST</h2>
+    </div>
+
+    <div class="container">
+        <div class="form-group">
+            <label for="usr">Task Name</label>
+            <input id="input" class="form-control"  placeholder="New Task">
+        </div>
+            <div class ="form-group">
+            <button id="add" class="btn btn-primary center-block btn-lg" align="center">Add</button><br>
+        </div>
+    </div>
+
+    <div class="container">
+    <h2> <span class="label label-default">Active </span></h2>
+        <div id="activelist"></div>
+    </div>
+
+    <div class="container">
+    <h2> <span class="label label-default">Completed </span></h2>
+        <div id="completedlist"></div>
+    </div>
+
+    <script src="interface.js" type="text/javascript"></script>
+    <script src="userinput.js" type="text/javascript"></script>
+</body>
+</html>
