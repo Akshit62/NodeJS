@@ -6,7 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "aditya goyal",
+  "author": "akshit jain",
   "license": "ISC",
   "dependencies": {
     "tsconfig": "^7.0.0",
