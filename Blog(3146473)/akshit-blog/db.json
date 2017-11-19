@@ -1,0 +1,111 @@
+{
+  "blogs": [
+    {
+      "id": 1,
+      "title": "Playbook",
+      "authorName": "Akshit Jain",
+      "date": "9/26/2036",
+      "logo": "../../assets/images/home-bg.jpg",
+      "post": "This is a description ",
+      "category": "Anti-human",
+      "userRatings": [
+        {
+          "id": 1,
+          "userName": "Using Angular 4 Pipes",
+          "rating": 3.2
+        },
+        {
+          "id": 2,
+          "userName": "Using Angular 1 Pipes",
+          "rating": 4.2
+        },
+        {
+          "id": 3,
+          "userName": "Using Angular 2 Pipes",
+          "rating": 5.2
+        },
+        {
+          "id": 4,
+          "userName": "Using Angular 3 Pipes",
+          "rating": 2.2
+        },
+        {
+          "id": 5,
+          "userName": "Using Angular 5 Pipes",
+          "rating": 1.2
+        }
+      ]
+    },
+    {
+      "name": "HALA LU YA ",
+      "authorName": "VARSHNEY",
+      "date": "02/03/1995",
+      "post": "JKSDHFSDDHFKJ SAJDKFBJKSDBJKFVF GRKHNSKDFNKSSNFK",
+      "category": "Business",
+      "imageUrl": "https://philosophy.utah.edu/undergraduate/New_Wide_White_P.jpg",
+      "id": 2
+    },
+    {
+      "name": null,
+      "authorName": null,
+      "date": null,
+      "post": null,
+      "category": null,
+      "imageUrl": null,
+      "id": 3
+    }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "username": "akshit62",
+      "password": "abc"
+    },
+    {
+      "id": 2,
+      "username": "akshit61",
+      "password": "abcd"
+    },
+    {
+      "username": "akshit62",
+      "password": "abc",
+      "id": 3
+    },
+    {
+      "username": "jksdfkj",
+      "password": "jnkjn",
+      "id": 4
+    },
+    {
+      "username": "akshit62",
+      "password": "nknlk",
+      "id": 5
+    },
+    {
+      "username": "mbfehsadm",
+      "password": "mnfbemds",
+      "id": 6
+    },
+    {
+      "username": "AKSHIT62",
+      "password": "KDKS",
+      "id": 7
+    },
+    {
+      "username": "akshit62",
+      "password": "jdbjsk",
+      "id": 8
+    },
+    {
+      "username": "akshit",
+      "password": "jnfdk",
+      "id": 9
+    },
+    {
+      "username": "bjdfbj",
+      "password": "mbmj",
+      "id": 10
+    }
+  ],
+  "logout": {}
+}
