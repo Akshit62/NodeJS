@@ -1,0 +1,67 @@
+{
+  "blogs": [
+    {
+      "id": 1,
+      "title": "Playbook",
+      "authorName": "Akshit Jain",
+      "date": "9/26/2036",
+      "logo": "../../assets/images/home-bg.jpg",
+      "post": "This is a description ",
+      "category": "Sports"
+    },
+    {
+      "name": "HALA LU YA ",
+      "authorName": "VARSHNEY",
+      "title": "Rishab",
+      "date": "02/03/1995",
+      "post": "JKSDHFSDDHFKJ SAJDKFBJKSDBJKFVF GRKHNSKDFNKSSNFK",
+      "category": "Business",
+      "imageUrl": "https://philosophy.utah.edu/undergraduate/New_Wide_White_P.jpg",
+      "id": 2
+    },
+    {
+      "name": null,
+      "title": "Tech",
+      "authorName": null,
+      "date": null,
+      "post": null,
+      "category": "Tech",
+      "imageUrl": null,
+      "id": 3
+    },
+    {
+      "name": "Justice League",
+      "authorName": "Akshit",
+      "date": "02/02/2017",
+      "post": "kdfsk fdhs ksah fehaf dkjaesj fkaesekefbseakje fkjas fca sdkjc",
+      "category": "Business",
+      "imageUrl": "https://weliveentertainment.com/wp-content/uploads/2017/11/Justice-League-Review.jpg",
+      "id": 4
+    }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "username": "akshit62",
+      "password": "abc",
+      "firstName": "akshit",
+      "lastName": "jain",
+      "favorites": [
+        2,
+        1
+      ]
+    },
+    {
+      "id": 2,
+      "username": "akshit61",
+      "password": "abcd",
+      "firstName": "akshit",
+      "lastName": "jain",
+      "favorites": [
+        2,
+        3
+      ]
+    }
+  ],
+  "logout": {}
+}
